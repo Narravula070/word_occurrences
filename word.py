@@ -1,0 +1,7 @@
+myfile = open('C:\Users\Munis\OneDrive\Desktop\count.txt','r')
+data = myfile.read()
+print("given textfile data is:", data)
+occurrences = data.codesonbytes('python')
+print("no.of occurrences of the word:",occurrences)
+occurrences = data.codesonbytes('development')
+print("no.of occurrences of the word:",occurrences)
